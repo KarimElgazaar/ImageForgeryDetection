@@ -98,8 +98,8 @@ def save_preprocessed_data(X_ela, X_srm, Y, file_log, filename='CASIAV2DATA.pkl'
 def main():
     image_size = (128, 128)
 
-    real_path = 'C:\\Users\\Karim Tarek\\Downloads\\archive\\CASIA2\\au' #real path of any dataset is insterted here CASIA V2 in inserted as an example
-    fake_path = 'C:\\Users\\Karim Tarek\\Downloads\\archive\\CASIA2\\Tp' #fake path of any dataset is insterted here CASIA V2 in inserted as an example
+    real_path = 
+    fake_path = 
 
     # Load SRM weights
     srm_weights = np.load('SRM_Kernels.npy')
