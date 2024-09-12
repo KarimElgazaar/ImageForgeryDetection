@@ -98,8 +98,8 @@ def save_preprocessed_data(X_ela, X_srm, Y, file_log, filename='finaldatacomofod
 def main():
     image_size = (128, 128)
 
-    real_path = 'C:\\Users\\Karim Tarek\\Downloads\\comofod_small\\CoMoFoD_small_v2\\authentic'
-    fake_path = 'C:\\Users\\Karim Tarek\\Downloads\\comofod_small\\CoMoFoD_small_v2\\forged'
+    real_path =
+    fake_path = 
 
     # Load SRM weights
     srm_weights = np.load('SRM_Kernels.npy')
