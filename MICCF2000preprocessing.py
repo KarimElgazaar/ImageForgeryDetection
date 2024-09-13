@@ -123,7 +123,7 @@ def main():
 
     print(f'Total images processed: {len(X_ela)}')
 
-    save_preprocessed_data(X_ela, X_srm, Y, log, filename='CASIAV2DATA.pkl')
+    save_preprocessed_data(X_ela, X_srm, Y, log, filename='MICCdata.pkl')
 
 if __name__ == '__main__':
     main()
