@@ -91,7 +91,7 @@ def preprocess_images(base_path, label, srm_weights, image_size=(128, 128), max_
     return X_ela, X_srm, Y, file_log
 
 # Save preprocessed data
-def save_preprocessed_data(X_ela, X_srm, Y, file_log, filename='CASIAV2DATA.pkl'):
+def save_preprocessed_data(X_ela, X_srm, Y, file_log, filename='CASIAV2data.pkl'):
     with open(filename, 'wb') as f:
         pickle.dump((X_ela, X_srm, Y, file_log), f)
 
@@ -123,7 +123,7 @@ def main():
 
     print(f'Total images processed: {len(X_ela)}')
 
-    save_preprocessed_data(X_ela, X_srm, Y, log, filename='CASIAV2DATA.pkl')
+    save_preprocessed_data(X_ela, X_srm, Y, log, filename='CASIAV2data.pkl')
 
 if __name__ == '__main__':
     main()
