@@ -24,7 +24,7 @@ To run this project, follow the steps below:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/image-forgery-detection.git
+   git clone https://github.com/KarimElgazaar/image-forgery-detection.git
    ```
 2. Install the required dependencies:
    ```bash
